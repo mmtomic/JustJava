@@ -17,6 +17,13 @@
         android:text="@string/quantity_text"
         android:textAllCaps="true"/>
 
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:text="+"
+        android:onClick="increment"/>
+
     <TextView
         android:id="@+id/quantity_text_view"
         android:layout_width="wrap_content"
@@ -24,6 +31,13 @@
         android:text="@string/quantity_number"
         android:textColor="#000000"
         android:textSize="16sp" />
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:text="-"
+        android:onClick="decrement"/>
 
     <TextView
         android:layout_width="wrap_content"
